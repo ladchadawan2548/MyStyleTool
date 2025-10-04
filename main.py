@@ -38,8 +38,8 @@ class MyStyleToolDialog(QtWidgets.QDialog):
 		self.nameLabel.setStyleSheet(
 			'''
 				QLabel {
-					background-color: #B2DAFF;
-					color: Brown;
+					background-color: #D5CAFA;
+					color: Black;
 					font-size: 16px;
 					font-family: DIN Medium;
 					font-weight: Medium;
@@ -49,12 +49,13 @@ class MyStyleToolDialog(QtWidgets.QDialog):
 		self.nameLineEdit = QtWidgets.QLineEdit()
 		self.nameLineEdit.setStyleSheet(
 			'''
-				QlineEdit {
-					color: navy;
-					background-color: #B2DAFF;
+				QLineEdit {
+					background-color: #D5CAFA;
+					color: Black;
+					border-radius: 10px;
+					font-size: 16px;
 					font-family: DIN Medium;
-					border-radius: 10px;					
-					font-weight: bold;
+					font-weight: Medium;
 				}
 			'''
 		)
@@ -67,7 +68,7 @@ class MyStyleToolDialog(QtWidgets.QDialog):
 		self.createButton.setStyleSheet(
 			'''
 				QPushButton {
-					background-color: #95FCB4;
+					background-color: #0AFAA3;
 					color: white;
 					border-radius: 10px;
 					font-size: 16px;
